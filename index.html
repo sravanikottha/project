@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewpoint" content="width=device-width,intial-scale=1.0,user-scalable-no">
+        <title>home</title>
+    <meta charset="UTF-8">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font/-awesome.min.css"
+rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div class="username-show-card">
+            <input type="username" class="input-control" placeholder="Username">
+            <i class="fa fa-eye username-show"></i>
+            <!--<i class="fa fa-eye-slash"></i>-->
+        </div>
+        <script src="js/jquery-latest.min.js">
+</script>
+$function(){
+    $(".username-show").click(function(event)){
+        $(this).toggleclass('fa-eye-slash');
+    var x=$("input-control").attr("type");
+    if(x=="username")
+    {
+        $(".input-control").attr("type", "text");   
+    }
+    else
+    {
+        $(".input-control").attr("type",username);
+    }
+});
+})
+</script>
+</body>
+</html> 
